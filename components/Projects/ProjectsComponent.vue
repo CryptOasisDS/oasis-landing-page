@@ -45,9 +45,9 @@
           <a href="https://twitter.com/voodoocave" target="_blank" class="btn btn-purple fixed-width">
             Follow
           </a>
-          <a href="#" class="btn btn-purple-outline fixed-width">
+<!--          <a href="#" class="btn btn-purple-outline fixed-width">
             Details
-          </a>
+          </a>-->
         </div>
       </div>
       <div class="projects__section projects__section--solomid">
