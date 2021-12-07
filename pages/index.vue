@@ -28,5 +28,6 @@ import FooterComponent from '~/components/Footer/FooterComponent.vue'
     FooterComponent
   }
 })
-export default class IndexPage extends Vue {}
+export default class IndexPage extends Vue {
+}
 </script>
