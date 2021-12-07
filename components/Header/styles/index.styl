@@ -1,0 +1,61 @@
+header
+  height: 170px
+  padding: 47px 0
+  background-color: #0B0B0B
+  color: #fff
+  @media(max-width: 1000px)
+    height: 124px
+    padding: 29px 0
+  .header
+    display: flex
+    align-items: center
+    justify-content: space-between
+    position: relative
+    .header
+      &__left
+        svg
+          height: 100%
+        @media(max-width: 1000px)
+          height: 65px
+      &__middle
+        display: flex
+        @media(max-width: 1000px)
+          display: none
+        a
+          display: block
+          h3
+            margin: auto
+          &:not(:last-child)
+            margin-right: 125px
+            @media(max-width: 1500px)
+              margin-right: 60px
+      &__right
+        display: flex
+        @media(max-width: 1000px)
+          display: none
+        a
+          display: block
+          color: var(--grey)
+          &:hover, &:focus, &:active
+            color: var(--red)
+      &__menu
+        display: none
+        @media(max-width: 1000px)
+          display: block
+        a
+          color: var(--grey)
+          &:hover, &:focus, &:active
+            color: var(--red)
+  .mobile-menu
+    position: relative
+    z-index: 2
+    background: var(--black)
+    text-align: center
+    padding: 61px 0
+    > a
+      display: block
+      margin-bottom: 61px
+  .socials
+    a
+      &:not(:last-child)
+        margin-right: 47px

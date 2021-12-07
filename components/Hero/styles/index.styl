@@ -1,0 +1,85 @@
+.hero
+  position: relative
+  background-color: var(--yellow-desert)
+  background-image: url(/bg-palm.png), url(/bg-oasis.png)
+  background-repeat: no-repeat, no-repeat
+  background-position: center bottom, top 31px right
+  background-size: 100%, 288px
+  height: 100vh
+  padding: 120px 0
+  @media(max-width: 1000px)
+    background-image: url(/bg-palm.png), none
+  @media(max-width: 840px)
+    padding: 35px 0 137px
+  .container
+    display: flex
+    @media(max-width: 840px)
+      align-items: center
+      flex-direction: column-reverse
+      ul
+        margin-left: 0
+  &__left
+    margin-right: 87px
+    @media(max-width: 840px)
+      margin-right: 0
+  @media(max-width: 1000px)
+    height: 100vh
+  h1
+    margin: 0 0 45px
+  .text-red
+    color: var(--red)
+  &__p
+    &--first
+      width: 371px
+      margin-bottom: 24px
+      @media(max-width: 840px)
+        width: 315px
+      @media(max-width: 374px)
+        width: 100%
+    &--second
+      li
+        padding-left: 1em
+        text-indent: -1em
+        @media(max-width: 840px)
+          padding-left: 0
+          text-indent: 0
+        &:before
+          content: '>'
+          padding-right: 5px
+          color: var(--red)
+          @media(max-width: 840px)
+            content: ''
+            padding-right: 0
+      width: 342px
+      @media(max-width: 840px)
+        width: 315px
+      @media(max-width: 374px)
+        width: 100%
+  &__token
+    border-radius: 12px
+    width: 333px
+    display: flex
+    justify-content: space-between
+    align-items: center
+    margin-bottom: 42px
+    @media(max-width: 840px)
+      width: 315px
+    @media(max-width: 374px)
+      width: 100%
+    p
+      margin-left: 10px
+      width: 249px
+      color: var(--red)
+      @media(max-width: 374px)
+       width: 100%
+  &__buttons
+    display: flex
+    @media(max-width: 374px)
+      flex-direction: column
+      align-items: center
+    a
+      &:first-child
+        margin-right: 31px
+        @media(max-width: 374px)
+          margin-right: 0
+          margin-bottom: 31px

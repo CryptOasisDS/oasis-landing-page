@@ -1,0 +1,23 @@
+footer
+  background-color: var(--grey-bg)
+  padding: 24px 0
+  color: var(--white)
+  .footer
+    display: flex
+    justify-content: space-between
+    align-items: center
+    @media(max-width: 480px)
+      flex-direction: column
+    &__left-side
+      display: flex
+      align-items: center
+      svg
+        margin-right: 26px
+      @media(max-width: 480px)
+        margin-bottom: 50px
+    &__right-side
+      display: flex
+      align-items: center
+      a
+        &:not(:last-child)
+          margin-right: 47px

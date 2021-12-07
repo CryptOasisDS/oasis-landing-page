@@ -1,0 +1,162 @@
+.projects
+  background-image:
+    linear-gradient(var(--black),var(--black)),
+    linear-gradient(var(--brown),var(--brown))
+  background-size:
+    calc(1 * (100% / 4)) 100%,
+    calc(4 * (100% / 4)) 100%
+  background-repeat:no-repeat
+  @media(max-width: 1000px)
+    background: none
+  .container
+    display: flex
+    @media(max-width: 1000px)
+      flex-direction: column
+      padding: 0
+  &__section
+    &--oasis
+      background-color: var(--black)
+      color: var(--white)
+      padding: 83px 122px 120px 0
+      @media(max-width: 1500px)
+        padding-right: 61px
+        padding-top: 20px
+      @media(max-width: 1000px)
+        padding: 45px 30px 50px
+      h1
+        margin: 0 0 34px
+      #oasis-coin
+        width: 227px
+        margin-bottom: 42px
+        @media(max-width: 1100px)
+          width: 170.25px
+        @media(max-width: 1000px)
+          height: 96px
+      h2
+        margin-bottom: 18px
+      h4
+        margin-bottom: 18px
+      p
+        width: 243px
+        margin-bottom: 49px
+        @media(max-width: 1100px)
+          width: 182.25px
+        @media(max-width: 1000px)
+          width: 100%
+      .text-red
+        color: var(--red)
+    &--voodoo-cave
+      padding: 8px 66px 120px
+      background-color: var(--purple-bg)
+      color: var(--white)
+      @media(max-width: 1500px)
+        padding: 8px 33px 120px
+      @media(max-width: 1000px)
+        padding: 8px 30px 50px
+      #voodoo-cave
+        position: relative
+        width: 385px
+        height: 415px
+        @media(max-width: 1500px)
+          width: 288.75px
+          height: 311.25px
+        .row
+          display: flex
+        &-first
+          width: 145px
+          height: 178px
+          position: absolute
+          top: 75px
+          left: 0
+          transform: rotate(-21.46deg)
+          @media(max-width: 1500px)
+            width: 108.75px
+            height: 133.5px
+        &-second
+          width: 232px
+          height: 264px
+          right: 0
+          top: 0
+          position: absolute
+          transform: rotate(25.89deg)
+          @media(max-width: 1500px)
+            width: 174px
+            height: 198px
+        &-logo
+          width: 200px
+          height: 90px
+          position: absolute
+          bottom: 80px
+          left: 30px
+          @media(max-width: 1500px)
+            width: 150px
+            height: 67.5px
+            bottom: 40px
+            left: 20px
+        &-third
+          width: 152px
+          height: 172px
+          transform: rotate(50.61deg)
+          position: absolute
+          bottom: 0
+          right: 0
+          @media(max-width: 1500px)
+            width: 114px
+            height: 129px
+      h2
+        margin-top: 15px
+      h4
+        margin-bottom: 18px
+      .text-purple
+        color: var(--purple)
+      p
+        width: 342px
+        margin-bottom: 52px
+        @media(max-width: 1500px)
+          width: 256.5px
+        @media(max-width: 1000px)
+          width: 100%
+    &--solomid
+      background-color: var(--brown)
+      padding: 75px 0 120px 148px
+      color: var(--white)
+      @media(max-width: 1500px)
+        padding-left: 74px
+        padding-top: 0
+      @media(max-width: 1000px)
+        padding: 30px 30px 50px
+      #solomid
+        margin-bottom: 41px
+        position: relative
+        height: 323px
+        &-animation
+          width: 326px
+          height: inherit
+          position: absolute
+          z-index: 1
+          @media(max-width: 1500px)
+            width: 244.5px
+        &-logo
+          position: absolute
+          bottom: 0
+          z-index: 2
+          width: 155px
+          @media(max-width: 1500px)
+            width: 116.25px
+      h2
+        margin-bottom: 26px
+      h4
+        margin-top: 0
+        margin-bottom: 18px
+        color: var(--blue)
+      p
+        margin-bottom: 26px
+  .buttons
+    display: flex
+    a:first-child
+      margin-right: 29px
+      @media(min-width: 1000px) and (max-width: 1500px)
+        margin-right: 0
+        margin-bottom: 29px
+    @media(min-width: 1000px) and (max-width: 1500px)
+      flex-direction: column

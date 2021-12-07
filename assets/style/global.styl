@@ -1,0 +1,106 @@
+@import 'variables.styl'
+
+html, body
+  font-family: 'PT Sans', sans-serif
+  overflow-x: hidden
+  *
+    box-sizing: border-box
+
+.pt-sans
+  font-family: 'PT Sans', sans-serif
+
+h1, h2, h3, h4, h5, h6
+  font-family: 'Bebas Neue', Arial
+
+h1
+  font-size: 3.25rem
+  line-height: 153%
+
+h2
+  font-size: 1.75rem
+  line-height: 96%
+
+h3
+  font-size: 1.5625rem
+  line-height: 153%
+
+h4
+  font-size: 1.3125rem
+  line-height: 129%
+
+p
+  font-size: 1.125rem
+  line-height: 150%
+
+small
+  font-size: 0.9375rem
+  line-height: 140%
+
+a
+  color: var(--white)
+  font-stretch: normal
+  font-style: normal
+  text-decoration: none
+  transition: color .3s ease-in-out
+
+  &:hover, &:focus, &:active
+    color: var(--red)
+
+button, a.btn
+  display: block
+  border: 1px solid transparent
+  border-radius: 10px
+  font-size: 1.125rem
+  line-height: 150%
+  font-weight: bold
+  padding: 12.5px
+  cursor: pointer
+  text-align: center
+  transition: opacity .3s ease-in-out
+  color: var(--white)
+  background-color: var(--black)
+  &.fixed-width
+    width: 170px
+    @media(max-width: 840px)
+      width: 146px
+  &.btn-danger
+    background-color: var(--red)
+  &.btn-purple
+    background-color: var(--purple)
+    &-outline
+      background-color: transparent
+      border-color: var(--purple-border)
+  &.btn-blue
+    background-color: var(--blue)
+  &.btn-brown-outline
+    background-color: transparent
+    border-color: var(--brown-border)
+  &:hover, &:active, &:focus
+    opacity: .85
+  @media(max-width: 1000px)
+    max-width: 315px
+
+ul
+  list-style: none
+  margin-left: -1em
+  padding-left: 0
+
+.container
+  width: 1680px
+  padding-left: 130px
+  padding-right: 130px
+  margin: auto
+  @media(max-width: 1700px)
+    padding-right: 65px
+    padding-left: 65px
+    width: 1570px
+  @media(max-width: 1570px)
+    padding-right: 30px
+    padding-left: 30px
+    width: 1500px
+  @media(max-width: 1500px)
+    width: 1080px
+  @media(max-width: 1100px)
+    width: 1000px
+  @media(max-width: 1000px)
+    width: 100%
