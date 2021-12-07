@@ -13,7 +13,7 @@
           Live on Raydium Swap
         </h4>
         <p>
-          We created Oasis token wich will provide its holders with access to a wide range of the projects developed by the Community.
+          We created Oasis token which will provide its holders with access to a wide range of the projects developed by the Community.
           <br>
           <br>
           The token was created on the Solana network.
@@ -39,7 +39,7 @@
           <b>Voodoo Cave</b> — is an innovative CDN (Combinatory-deflationary NFT) project.
           <br>
           <br>
-          Our project is highly coupled with the Oasis token and leverages it as in-game currency.
+          Our project is tightly linked to the Oasis token and uses it as in-game currency.
         </p>
         <div class="buttons">
           <a href="https://twitter.com/voodoocave" target="_blank" class="btn btn-purple fixed-width">
@@ -62,10 +62,10 @@
           Get your Omid now!
         </h4>
         <p>
-          Solomid will be used in the game “Voodoo Cave” as unique pets.
+          Solomids will be used in the game “Voodoo Cave” as unique pets.
           <br>
           <br>
-          Which will make your journey through the obstacles that the game entails much easier and save you from unnecessary costs!
+          The Omids will make your journey through the obstacles that the game entails much easier and save you from unnecessary costs!
         </p>
         <div class="buttons">
           <a href="https://get.solomid.io/" target="_blank" class="btn btn-blue fixed-width">
